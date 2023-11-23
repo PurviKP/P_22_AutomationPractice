@@ -9,9 +9,9 @@ import org.testng.Assert;
 import setup.BaseSetup;
 import static setup.BaseSetup.*;
 
-public class TC_10_11_pages {
+public class SubscriptionPages {
 	
-	public TC_10_11_pages(WebDriver driver) {
+	public SubscriptionPages(WebDriver driver) {
 		  PageFactory.initElements(driver,this);
 	}
 	

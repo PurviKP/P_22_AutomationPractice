@@ -11,9 +11,9 @@ import org.testng.Assert;
 
 import setup.BaseSetup;
 
-public class TC_6_pages {
+public class ContactUsPages {
 
-	public TC_6_pages(WebDriver driver) {
+	public ContactUsPages(WebDriver driver) {
 		PageFactory.initElements(driver,this);
 	}
 	 @FindBy(xpath = "//li/a/i[contains(@class,'home')]")

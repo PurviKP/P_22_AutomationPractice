@@ -11,8 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import static setup.BaseSetup.*;
 
-public class TC_25_26_pages {
-	public TC_25_26_pages(WebDriver driver) {
+public class ScrollUpAndScrollDownPages {
+	public ScrollUpAndScrollDownPages(WebDriver driver) {
 		PageFactory.initElements(driver,this);
 	}
 	

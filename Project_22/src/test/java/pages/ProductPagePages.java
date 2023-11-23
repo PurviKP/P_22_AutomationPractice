@@ -22,10 +22,10 @@ import java.util.List;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 import static setup.BaseSetup.*;
 
-public class TC_8_9_12_to_24_pages {
+public class ProductPagePages {
 	WebDriverWait wait;
 	
-	public TC_8_9_12_to_24_pages(WebDriver driver) {
+	public ProductPagePages(WebDriver driver) {
 	PageFactory.initElements(driver,this);
 	wait = new WebDriverWait(driver, Duration.ofSeconds(5L));
 	}

@@ -2,15 +2,15 @@ package testRunner;
 
 import org.testng.annotations.Test;
 
-import pages.TC_6_pages;
+import pages.ContactUsPages;
 import setup.BaseSetup;
 
-public class TC_6_TR extends BaseSetup {
-	TC_6_pages contactUs;
+public class ContactUsTR extends BaseSetup {
+	ContactUsPages contactUs;
 	
 	 @Test(priority = 1, description = "Test Case 6: Contact Us Form")
 	    public void ContactUsForm(){
-	        contactUs=new TC_6_pages(driver);
+	        contactUs=new ContactUsPages(driver);
 	        contactUs.contactUsForm(contactUsJson);
 	    }
 

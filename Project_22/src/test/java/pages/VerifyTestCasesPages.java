@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class TC_7_pages {
-	public TC_7_pages(WebDriver driver) {
+public class VerifyTestCasesPages {
+	public VerifyTestCasesPages(WebDriver driver) {
         PageFactory.initElements(driver,this);
     }
 	

@@ -2,23 +2,23 @@ package testRunner;
 
 import org.testng.annotations.Test;
 
-import pages.TC_1_and_5_pages;
+import pages.UserRegistrationPages;
 import setup.BaseSetup;
 
-public class TC_1_and_5_TR extends BaseSetup {
+public class UserRegistrationTR extends BaseSetup {
 	
-	TC_1_and_5_pages signUp;
+	UserRegistrationPages signUp;
 	
 	@Test(priority = 1, description = "Test Case 1: Register User" )
 	public void userRegistration() {
-		signUp = new TC_1_and_5_pages(driver);
+		signUp = new UserRegistrationPages(driver);
 		signUp.userRegistration(userRegisterJson);
 		signUp.userDeletion();
 	}
 	
 	@Test(priority = 2, description = "Test Case 5: Register User with existing email")
 	public void registerWithExistingEmail() {
-		signUp = new TC_1_and_5_pages(driver);
+		signUp = new UserRegistrationPages(driver);
 		signUp.registerWithExistingEmail(userLoginJson);
 	}
 

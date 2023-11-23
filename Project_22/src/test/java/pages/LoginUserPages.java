@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class TC_2_3_4Pages {
-	public TC_2_3_4Pages(WebDriver driver) {
+public class LoginUserPages {
+	public LoginUserPages(WebDriver driver) {
 		PageFactory.initElements(driver,this);
 	}
 	 @FindBy(xpath = "//li/a/i[contains(@class,'home')]")

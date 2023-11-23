@@ -9,9 +9,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import static setup.BaseSetup.applicationInputJson;
 
-public class TC_1_and_5_pages {
+public class UserRegistrationPages {
 	
-	public TC_1_and_5_pages(WebDriver driver) {
+	public UserRegistrationPages(WebDriver driver) {
         PageFactory.initElements(driver, this);
 	}
 		@FindBy(xpath="//li/a/i[contains(@class,'home')]")
